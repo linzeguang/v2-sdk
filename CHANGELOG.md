@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/Uniswap/sdks/compare/v1.0.3...v1.0.4) (2025-12-02)
+
+
+### Features
+
+* update scripts ([e438aad](https://github.com/Uniswap/sdks/commit/e438aade91011536c8d87735f9764b47ec6bf632))
+
 ### [1.0.3](https://github.com/Uniswap/sdks/compare/v1.0.2...v1.0.3) (2025-12-02)
 
 
