@@ -1,14 +1,16 @@
-import { Percent, V2_FACTORY_ADDRESSES } from '@uniswap/sdk-core'
+import { Percent } from '@uniswap/sdk-core'
 import JSBI from 'jsbi'
 
 /**
  * @deprecated use FACTORY_ADDRESS_MAP instead
  */
-export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+export const FACTORY_ADDRESS = '0xaD1E6bD51A36df51B8CBbc277AF96AA06D691e55'
 
-export const FACTORY_ADDRESS_MAP: { [chainId: number]: string } = V2_FACTORY_ADDRESSES
+export const FACTORY_ADDRESS_MAP: { [chainId: number]: string } = {
+  97: '0xaD1E6bD51A36df51B8CBbc277AF96AA06D691e55',
+}
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const INIT_CODE_HASH = 'bf7585cde4f408809b6c163843c70455db804dcbba556f99313c4ab4ce8c6346'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
