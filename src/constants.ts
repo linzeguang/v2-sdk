@@ -10,7 +10,7 @@ export const FACTORY_ADDRESS_MAP: { [chainId: number]: string } = {
   97: '0xaD1E6bD51A36df51B8CBbc277AF96AA06D691e55',
 }
 
-export const INIT_CODE_HASH = 'bf7585cde4f408809b6c163843c70455db804dcbba556f99313c4ab4ce8c6346'
+export const INIT_CODE_HASH = '0xbf7585cde4f408809b6c163843c70455db804dcbba556f99313c4ab4ce8c6346'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
