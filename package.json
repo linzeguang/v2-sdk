@@ -24,7 +24,7 @@
     "test": "tsdx test",
     "publish": "yarn build && npm publish",
     "release": "standard-version",
-    "postrelease": "git push && git push --tags --no-verify && yarn publish",
+    "postrelease": "git push && git push --tags --no-verify",
     "version-tag:major": "npm run release -- --release-as major",
     "version-tag:minor": "npm run release -- --release-as minor",
     "version-tag:patch": "npm run release -- --release-as patch",
