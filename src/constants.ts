@@ -1,11 +1,6 @@
 import { Percent } from '@uniswap/sdk-core'
 import JSBI from 'jsbi'
 
-/**
- * @deprecated use FACTORY_ADDRESS_MAP instead
- */
-export const FACTORY_ADDRESS = '0xaD1E6bD51A36df51B8CBbc277AF96AA06D691e55'
-
 export const FACTORY_ADDRESS_MAP: { [chainId: number]: string } = {
   97: '0xaD1E6bD51A36df51B8CBbc277AF96AA06D691e55',
 }
