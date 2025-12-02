@@ -44,7 +44,7 @@ export class Pair {
 
   public static getAddress(tokenA: Token, tokenB: Token, initCodeHash?: string): string {
     const factoryAddress = FACTORY_ADDRESS_MAP[tokenA.chainId]
-    invariant(factoryAddress === undefined, 'factoryAddress is undefined')
+    invariant(factoryAddress !== undefined, factoryAddress)
     return computePairAddress({ factoryAddress, tokenA, tokenB, initCodeHash })
   }
 
